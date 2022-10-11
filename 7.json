@@ -21,11 +21,11 @@
 		"key": "py_kuaikan",
 		"name": "快看",
 		"type": 3,
-		"api": "py_快看",
+		"api": "py_kuaikan",
 		"searchable": 1,
 		"quickSearch": 1,
 		"filterable": 1,
-		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_快看.py"
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_kuaikan.py"
 	},{
 		"key": "py_lezhu",
 		"name": "乐猪",
@@ -336,7 +336,7 @@
 		"group": "redirect",
 		"channels": [{
 			"name": "live",
-			"urls": ["proxy://do=live&type=txt&ext=aHR0cDovL3R2Lmp0aG4uY24vbGl2ZXMvbGl2ZV9wbHVzLnR4dA=="]
+			"urls": ["proxy://do=live&type=txt&ext=https://raw.iqiq.io/2hacc/TVBox/main/live/live.txt"]
 		}]
 	}],
 	"flags": ["youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "letv", "tudou", "pptv", "mgtv", "wasu", "bilibili", "leduo", "fq3", "fq4", "xueren", "duoduo", "duoduozy", "miaoparty", "miaoparty2", "miaoparty3", "renrenmi", "优酷", "芒果", "腾讯", "爱奇艺", "奇艺", "ltnb", "rx", "CL4K", "xfyun", "wuduzy"],
