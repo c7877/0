@@ -1,13 +1,40 @@
 {
 	"sites": [{
+		"key": "py_douban",
+		"name": "豆瓣",
+		"type": 3,
+		"api": "py_douban",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_douban.py"
+	},{
 		"key": "py_kunyu77",
 		"name": "酷云77",
 		"type": 3,
 		"api": "py_kunyu77",
-		"searchable": 0,
-		"quickSearch": 0,
+		"searchable": 1,
+		"quickSearch": 1,
 		"filterable": 1,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_kunyu77.py"
+	},{
+		"key": "py_kuaikan",
+		"name": "快看",
+		"type": 3,
+		"api": "py_快看",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_快看.py"
+	},{
+		"key": "py_lezhu",
+		"name": "乐猪",
+		"type": 3,
+		"api": "py_lezhu",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 0,
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_lezhu.py"
 	},{
 		"key": "py_bilivd",
 		"name": "B站",
@@ -27,14 +54,23 @@
 		"filterable": 1,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_3qu.py"
 	},{
+		"key": "py_yydshd",
+		"name": "yyds",
+		"type": 3,
+		"api": "py_yydshd",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 0,
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_yydshd.py"
+	},{
 		"key": "py_cctv",
 		"name": "央视",
 		"type": 3,
-		"api": "py_cctv",
+		"api": "py_cctv_full",
 		"searchable": 0,
 		"quickSearch": 0,
 		"filterable": 1,
-		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_cctv.py"
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_cctv_full.py"
 	},{
 		"key": "py_czspp",
 		"name": "厂长",
@@ -72,6 +108,24 @@
 		"filterable": 1,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_voflix.py"
 	}, {
+		"key": "py_yixi",
+		"name": "一席",
+		"type": 3,
+		"api": "py_yixi",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 0,
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_yixi.py"
+	},{
+		"key": "py_star",
+		"name": "星星影视",
+		"type": 3,
+		"api": "py_yiso",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 0,
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_star.py"
+	},{
 		"key": "py_bilimd",
 		"name": "B站影视",
 		"type": 3,
@@ -90,6 +144,24 @@
 		"filterable": 1,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_gimytv.py"
 	}, {
+		"key": "py_cup",
+		"name": "茶杯狐",
+		"type": 3,
+		"api": "py_cup",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_cup.py"
+	},{
+		"key": "py_wmkk",
+		"name": "完美看看",
+		"type": 3,
+		"api": "py_wmkk",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_wmkk.py"
+	},{
 		"key": "py_genmov",
 		"name": "跟剧",
 		"type": 3,
@@ -134,6 +206,15 @@
 		"quickSearch": 1,
 		"filterable": 0,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_gitcafe.py"
+	},  {
+		"key": "py_alist",
+		"name": "Alist",
+		"type": 3,
+		"api": "py_alist",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 0,
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_alist.py"
 	}, {
 		"key": "py_yiso",
 		"name": "易搜",
@@ -143,7 +224,7 @@
 		"quickSearch": 1,
 		"filterable": 0,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_yiso.py"
-	}, {
+	},{
 		"key": "py_zhaozy",
 		"name": "找资源",
 		"type": 3,
@@ -152,15 +233,6 @@
 		"quickSearch": 1,
 		"filterable": 0,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_zhaozy.py"
-	}, {
-		"key": "py_alist",
-		"name": "Alist",
-		"type": 3,
-		"api": "py_alist",
-		"searchable": 1,
-		"quickSearch": 1,
-		"filterable": 0,
-		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_alist.py"
 	}, {
 		"key": "py_pansou",
 		"name": "盘搜",
@@ -171,6 +243,15 @@
 		"filterable": 0,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_pansou.py"
 	}, {
+		"key": "py_yunso",
+		"name": "云搜",
+		"type": 3,
+		"api": "py_yunso",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 0,
+		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_yunso.py"
+	},{
 		"key": "push_agent",
 		"name": "阿里",
 		"type": 3,
