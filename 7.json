@@ -99,84 +99,137 @@
 		"filterable": 1,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_zxzj.py"
 	},{
-   "key": "dr_蓝光影院",
-   "name": "蓝光影院(drpy)",
-   "type": 3,
-   "api": "http://101.34.67.237:5705/libs/drpy.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "http://101.34.67.237:5705/admin/view/蓝光影院.js"
-  },
+            "key": "dr_蓝光影院",
+            "name": "蓝光影院(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=蓝光影院",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
   {
-   "key": "dr_兔小贝",
-   "name": "兔小贝(drpy)",
-   "type": 3,
-   "api": "http://101.34.67.237:5705/libs/drpy.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "http://101.34.67.237:5705/admin/view/兔小贝.js"
-  },
-  {
-   "key": "dr_影视工厂",
-   "name": "影视工厂(drpy)",
-   "type": 3,
-   "api": "http://101.34.67.237:5705/libs/drpy.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "http://101.34.67.237:5705/admin/view/影视工厂.js"
-  },
-  {
-   "key": "dr_007影视",
-   "name": "007影视(drpy)",
-   "type": 3,
-   "api": "http://101.34.67.237:5705/libs/drpy.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "http://101.34.67.237:5705/admin/view/007影视.js"
-  },
-  {
-   "key": "dr_蓝莓影视",
-   "name": "蓝莓影视(drpy)",
-   "type": 3,
-   "api": "http://101.34.67.237:5705/libs/drpy.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "http://101.34.67.237:5705/admin/view/蓝莓影视.js"
-  },{
-   "key": "dr_鸭奈飞",
-   "name": "鸭奈飞(drpy)",
-   "type": 3,
-   "api": "http://101.34.67.237:5705/libs/drpy.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "http://101.34.67.237:5705/admin/view/鸭奈飞.js"
-  },
-  {
-   "key": "dr_人人影视",
-   "name": "人人影视(drpy)",
-   "type": 3,
-   "api": "http://101.34.67.237:5705/libs/drpy.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "http://101.34.67.237:5705/admin/view/人人影视.js"
-  },
-  {
-   "key": "dr_玄天",
-   "name": "玄天(drpy)",
-   "type": 3,
-   "api": "http://101.34.67.237:5705/libs/drpy.min.js",
-   "searchable": 2,
-   "quickSearch": 0,
-   "filterable": 0,
-   "ext": "http://101.34.67.237:5705/admin/view/玄天.js"
-  },{
+            "key": "dr_兔小贝",
+            "name": "兔小贝(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=兔小贝",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "dr_影视工厂",
+            "name": "影视工厂(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=影视工厂",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "dr_007影视",
+            "name": "007影视(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=007影视",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "dr_蓝莓影视",
+            "name": "蓝莓影视(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=蓝莓影视",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },{
+            "key": "dr_看视界",
+            "name": "看视界(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=看视界",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "dr_l0l",
+            "name": "l0l(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=l0l",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "dr_追剧喵",
+            "name": "追剧喵(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=追剧喵",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "dr_夜空",
+            "name": "夜空(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=夜空",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        }, {
+            "key": "dr_鸭奈飞",
+            "name": "鸭奈飞(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=鸭奈飞",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "dr_人人影视",
+            "name": "人人影视(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=人人影视",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "dr_玄天",
+            "name": "玄天(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=玄天",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },{
+            "key": "dr_真不卡",
+            "name": "真不卡(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=真不卡",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "dr_LIBVIO",
+            "name": "LIBVIO(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=LIBVIO",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "dr_剧白白",
+            "name": "剧白白(道长)",
+            "type": 1,
+            "api": "http://101.34.67.237:5705/vod?rule=剧白白",
+            "searchable": 2,
+            "quickSearch": 0,
+            "filterable": 0
+        },{
 		"key": "py_voflix",
 		"name": "Voflix",
 		"type": 3,
