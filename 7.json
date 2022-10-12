@@ -467,7 +467,7 @@
 		"group": "redirect",
 		"channels": [{
 			"name": "live",
-			"urls": ["proxy://do=live&type=txt&ext=https://raw.iqiq.io/2hacc/TVBox/main/live/live.txt"]
+			"urls": ["proxy://do=live&type=txt&ext=http://101.34.67.237/tvlive.zhaobadao.txt"]
 		}]
 	}],
 	"flags": ["youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "letv", "tudou", "pptv", "mgtv", "wasu", "bilibili", "leduo", "fq3", "fq4", "xueren", "duoduo", "duoduozy", "miaoparty", "miaoparty2", "miaoparty3", "renrenmi", "优酷", "芒果", "腾讯", "爱奇艺", "奇艺", "ltnb", "rx", "CL4K", "xfyun", "wuduzy"],
