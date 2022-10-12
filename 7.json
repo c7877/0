@@ -27,15 +27,6 @@
 		"filterable": 1,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_kuaikan.py"
 	},{
-		"key": "py_lezhu",
-		"name": "乐猪",
-		"type": 3,
-		"api": "py_lezhu",
-		"searchable": 1,
-		"quickSearch": 1,
-		"filterable": 0,
-		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_lezhu.py"
-	},{
 		"key": "py_bilivd",
 		"name": "B站",
 		"type": 3,
@@ -275,15 +266,6 @@
 		"filterable": 1,
 		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_gimytv.py"
 	}, {
-		"key": "py_cup",
-		"name": "茶杯狐",
-		"type": 3,
-		"api": "py_cup",
-		"searchable": 1,
-		"quickSearch": 1,
-		"filterable": 1,
-		"ext": "https://ghproxy.com/https://raw.githubusercontent.com/c7877/7877.github.io/main/plugin/py_cup.py"
-	},{
 		"key": "py_wmkk",
 		"name": "完美看看",
 		"type": 3,
